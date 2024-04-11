@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    
+}
+.logo{
+    padding-top: 18px;
+    padding-left: 100px;
+    position: relative;
+}
+.communacate{
+    margin-right: 110px;
+    
+}
+.communacate ul {
+display: flex;
+justify-content: end;
+list-style: none;
+position: relative;
+top: -40px;
+}
+
+.communacate ul li{
+padding-left: 14px;
+padding-right: 14px;
+
+}
+.communacate ul li a{
+    text-decoration: none;
+    font-size: 18px;
+   color: black;
+}
+button{
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: -8px;
+    padding: 4px;
+    background: transparent;
+   
+
+    
+}
+#cont{
+    border: 1px;
+    background-color: #741f92;
+    
+}
+#make{
+    border: 1px solid;
+}
+#contact  {
+    color: #ffff;
+    border: solid;
+    border: 1px;
+}
+.image{
+    padding-top: 60px;
+    float: right;
+    margin-right: 110px;
+}
+
+/* .detils {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .detils > * {
+    align-self: flex-start;
+  } */
+  
+  .detils{
+    margin-left: 100px;
+    position: relative;
+    top: 200px;
+
+
+
+  }
+  .detils ul li{
+    list-style: none;
+    font-style:unset;
+    font-size: 47px;
+    font-family:  'Arial Narrow Bold', sans-serif;
+    
+
+  }
+  .info{
+    margin-top: 30px;
+    font-size: 20px;
+    color: #6B7280;
+
+  }
+  #getintuch {
+    margin-top:60px ;
+    border: 1px solid;
+    width: 110px;
+    height: 50px;
+    
+  }
+#getintuch  a{
+    
+    font-size: 15px;
+    
+}
